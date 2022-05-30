@@ -1,0 +1,48 @@
+.feature {
+    list-style: circle;
+    text-align: left;
+    border: 1 px solid purple;
+}
+
+body {}
+
+#image-background {
+    background-image: url("../images/apple-pie.jpg");
+    background-size: cover;
+    height: 450px;
+    border: 1px solid red;
+    color: white;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    right: 50px;
+}
+
+.center {
+    text-align: center;
+    border: 1px solid yellow;
+}
+
+.left {
+    text-align: left;
+    border: 1px solid yellow;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-width: 1px;
+    background-color: grey;
+}
