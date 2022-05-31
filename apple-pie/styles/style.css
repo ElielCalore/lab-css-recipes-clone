@@ -20,29 +20,33 @@ body {}
 
 .image-center {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*gap: 20px;*/
 }
 
 .center {
     text-align: center;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
+    margin: 3px;
 }
 
 .left {
     text-align: left;
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
 }
 
 hr {
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 1px;
+    margin-bottom: 1px;
     margin-left: auto;
     margin-right: auto;
     border-style: groove;
     border-width: 1px;
     background-color: grey;
+    width: 80%;
 }
